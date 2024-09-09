@@ -1,1 +1,32 @@
 @charset "utf-8";
+.header {
+    background: #fff;
+}
+
+.header-button {
+    color: #fff;
+    background-color: #6ba7eb;
+    margin: 15px;
+}
+
+.i {
+    color: #777;
+    margin: 15px;
+}
+
+.keyvisual {
+    margin: 400px;
+    padding: 30px;
+}
+
+.h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #6ba7eb;
+}
+
+.p {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
