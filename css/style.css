@@ -19,14 +19,23 @@
     padding: 30px;
 }
 
-.h1 {
+.skills-inner h1 {
     font-size: 65px;
     font-weight: 700;
     color: #6ba7eb;
 }
 
-.p {
+.skills-inner p {
     font-size: 40px;
     font-weight: 700;
     color: #fff;
+}
+
+.skills-inner {
+    width: 1100px;
+    max-width: 100%;
+}
+
+main {
+    background-image: url('images/keyvisual/keyvisual.jpg');
 }
