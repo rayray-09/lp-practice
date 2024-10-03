@@ -4,9 +4,12 @@
 }
 
 .header-button {
+    width: 10px;
+    height: 10px;
     color: #fff;
     background-color: #6ba7eb;
     margin: 15px;
+    cursor: pointer;
 }
 
 .i {
@@ -39,3 +42,8 @@
 main {
     background-image: url('images/keyvisual/keyvisual.jpg');
 }
+
+ul {
+    display: flex;
+}
+
