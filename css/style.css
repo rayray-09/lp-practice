@@ -3,13 +3,31 @@
     background: #fff;
 }
 
-.header-button {
+.btn {
     width: 10px;
     height: 10px;
     color: #fff;
     background-color: #6ba7eb;
     margin: 15px;
     cursor: pointer;
+    opacity: 0.8;
+}
+
+.maincontainer {
+    font-size: 65px;
+    font-weight: 700;
+    color: #6ba7eb;
+}
+
+.subcontainer {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.btn:hover{
+    opacity: 1;
+
 }
 
 .i {
@@ -47,3 +65,6 @@ ul {
     display: flex;
 }
 
+.skills {
+    display: flex;
+}
