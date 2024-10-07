@@ -61,7 +61,7 @@ main {
     background-image: url('images/keyvisual/keyvisual.jpg');
 }
 
-ul {
+.skills-ul {
     display: flex;
 }
 
