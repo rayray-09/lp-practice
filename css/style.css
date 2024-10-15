@@ -75,3 +75,11 @@ main {
 .skills {
     display: flex;
 }
+
+.dinner {
+    padding: 10px;
+    background-color: #6ba7eb;
+    font-size: 16px;
+    height: 26px;
+    border-left: 2px solid #fff;
+}
