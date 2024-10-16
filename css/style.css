@@ -12,7 +12,6 @@
     cursor: pointer;
     opacity: 0.8;
     transition: all 3s;
-
 }
 
 .maincontainer {
@@ -38,9 +37,15 @@
 }
 
 .keyvisual {
-    margin: 400px;
-    padding: 30px;
+    /* margin: 400px;
+    padding: 30px; */
+    background-image: url('images/keyvisual/keyvisual.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+
 
 .skills-inner h1 {
     font-size: 65px;
@@ -88,3 +93,6 @@ main {
     border-left: 2px solid #fff;
 }
 
+.sns {
+    opacity: 0.5;
+}
