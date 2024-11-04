@@ -95,6 +95,11 @@ p {
     font-size: 15px;
     line-height: 18px;
     word-break: break-all;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    text-justify: inter-character;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 
@@ -140,6 +145,15 @@ main {
     opacity: 0.7;
     transition: all 1s;
 }
+
+/* .flexbox {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex-item {
+    border: 1px solid #000;
+    width: 10%;
+  } */
 
 .skills {
     display: flex;
