@@ -146,6 +146,20 @@ main {
     transition: all 1s;
 }
 
+.flexbox {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    gap: 50px;
+    justify-content: center;
+}
+
+.flexbox img {
+    object-fit: cover;
+    height: 300;
+    width: 300;
+    border-radius: 0.5px; 
+}
+
 /* .flexbox {
     display: flex;
     justify-content: space-between;
