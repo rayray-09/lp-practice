@@ -112,7 +112,7 @@ p {
 
 /* skills */
 h4 {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 35px;
   font-size: 40px;
   letter-spacing: 10px;
@@ -145,6 +145,7 @@ main {
   gap: 50px;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding-bottom: 50px;
 }
 
 .flexbox img {
@@ -169,7 +170,7 @@ main {
 
 /* .plan */
 h5 {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-bottom: 35px;
   /* padding-top: 20px;
     padding-bottom: 35px; */
@@ -190,12 +191,16 @@ h5 {
   background-color: #6ba7eb;
   font-size: 16px;
   /* height: 26px; */
-  border-left: 2px solid #fff;
+  /* border-left: 2px solid #fff; */
+  /* margin: 0 auto; */
 }
 
 td,
 th {
   line-height: 26px;
+  padding: 10px;
+  text-align: center;
+  border-left: 2px solid #fff;
 }
 
 tbody {
