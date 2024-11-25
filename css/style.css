@@ -76,7 +76,12 @@ h1 {
 
 .news {
   background-color: #e3f2fd;
-  /* margin-top: 50px; */
+  padding-top: 50px;
+}
+
+.news-box {
+  display: flex;
+  justify-content: space-between;
 }
 
 h3 {
@@ -87,15 +92,28 @@ h3 {
   text-align: right;
 }
 
-p {
+.title {
+  margin-top: 20px;
+  margin-bottom: 35px;
+  font-size: 40px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.news-text {
+  width: 70%;
+}
+
+.news-text p {
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
-  text-align: justify;
+  text-align: center;
+  /* text-align: justify;
   text-justify: inter-ideograph;
   text-justify: inter-character;
   word-wrap: break-word;
-  overflow-wrap: break-word;
+  overflow-wrap: break-word; */
 }
 
 /* .skills-inner h1 {
@@ -219,12 +237,19 @@ tr:nth-child(even) {
   padding: 200px 0;
 }
 
-.snsnav {
+.icon {
   width: 185px;
+  text-align: center;
+}
+
+.snsnav {
+  display: flex;
+  /* width: 185px; */
   padding: 25px 0;
   color: #8c8c8c;
   overflow: hidden;
   font-size: 40px;
+  justify-content: center;
 }
 
 /* footer */
