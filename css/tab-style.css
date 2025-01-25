@@ -1,8 +1,22 @@
 /* max-width: 1199px のブレイクポイントで上下の余白を250pxに設定 */
 @media (max-width: 1199px) {
-    .gate {
-      margin-top: 250px; /* 上の余白 */
-      margin-bottom: 250px; /* 下の余白 */
+    .keyvisual {
+      padding: 250px 0; 
+    }
+
+    /* news */
+    .news {
+      padding: 50px 0;
+    }
+
+    .news-box {
+      display: block; /* 横並びを解除して縦に並べる */
+    }
+
+    .news-box img {
+      display: block; /* 画像をブロック要素にして縦並びにする */
+      /* margin-bottom: 20px; 画像間に間隔をつける */
+      width: 100%; /* 必要に応じて画像の幅を調整 */
+      height: auto; /* 高さを自動調整 */
     }
   }
-  
