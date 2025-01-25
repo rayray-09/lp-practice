@@ -1,0 +1,8 @@
+/* max-width: 1199px のブレイクポイントで上下の余白を250pxに設定 */
+@media (max-width: 1199px) {
+    .gate {
+      margin-top: 250px; /* 上の余白 */
+      margin-bottom: 250px; /* 下の余白 */
+    }
+  }
+  
